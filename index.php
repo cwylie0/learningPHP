@@ -1,11 +1,20 @@
 <html>
 <body>
 <form method="get" action="greet_user.php">
-First Name:
-<input type="text" name="first">
+Name:
+<input type="text" name="name">
 <br>
-Last Name:
-<input type="text" name="last">
+Street:
+<input type="text" name="street">
+<br>
+City:
+<input type="text" name="city">
+<br>
+State:
+<input type="text" name="state">
+<br>
+Phone:
+<input type="text" name="phone">
 <br>
 <input type="submit" value="Submit">
 </form>
